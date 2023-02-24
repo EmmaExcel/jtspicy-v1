@@ -1,0 +1,154 @@
+.with-me-container{
+    height: 130vh;
+}
+
+.with-me-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.with-me-header p {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #ffca47;
+  text-align: center;
+}
+
+.with-me-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.with-me-img img {
+  opacity: 0.56;
+}
+
+.with-me-text {
+  width: 366px;
+  height: 21px;
+  font-family: "Rubik";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.with-me-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.with-me-input label {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+#fullname {
+  width: 572px;
+  height: 56px;
+  border: 2px solid #ffffff;
+}
+
+#email {
+  width: 572px;
+  height: 56px;
+  border: 2px solid #ffffff;
+}
+
+#message {
+  width: 572px;
+  height: 152px;
+  border: 2px solid #ffffff;
+}
+input:focus {
+  outline: none;
+}
+
+.with-me-button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.with-me-button button {
+  width: 196px;
+  height: 56px;
+  border: 2px solid #ffca47;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffca47;
+  margin-top: 50px;
+}
+
+@media (max-width: 800px) {
+
+  .with-me-container{
+    height: 110vh;
+  }
+  .with-me-img {
+    display: none;
+  }
+
+  .with-me-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .with-me-text p {
+    width: 340px;
+    height: 42px;
+    font-family: "Rubik";
+    font-style: italic;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+  }
+
+  #fullname {
+    width: 337px;
+    height: 56px;
+
+    border: 2px solid #ffffff;
+  }
+
+  #email {
+    width: 337px;
+    height: 56px;
+    border: 2px solid #ffffff;
+  }
+
+  #message {
+    width: 337px;
+    height: 152px;
+
+    border: 2px solid #ffffff;
+  }
+
+  .with-me-button  {
+    justify-content: center;
+    
+  }
+
+  .with-me-button button{
+    margin-top: 30px;
+  }
+
+  
+}

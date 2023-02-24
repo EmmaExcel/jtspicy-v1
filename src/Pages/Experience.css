@@ -1,0 +1,90 @@
+.experience-container {
+  height: 230vh;
+  background: linear-gradient(black, black),
+    url("./Experienceimages/experienceimg.png");
+}
+
+.experience-header p {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  /* identical to box height */
+
+  color: #ffca47;
+  text-align: center;
+  padding: 30px;
+}
+
+.experience-title {
+  height: 32px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height */
+  color: #ffffff;
+}
+
+.experience-box-paragraph {
+  width: 462px;
+  height: 204px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 159.6%;
+  /* or 34px */
+  color: #ffffff;
+}
+
+.experience-box-date {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.vertical-timeline-element-content {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+@media (max-width: 800px) {
+  .experience-box-paragraph {
+    width: 281px;
+    height: 261px;
+
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 159.6%;
+    /* or 29px */
+
+    color: #ffffff;
+  }
+
+  .experience-title {
+    
+    height: 32px;
+    
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+  }
+
+  .experience-box-date{
+    padding-top:20px;
+  }
+}

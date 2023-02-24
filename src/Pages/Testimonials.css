@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+.testimonials-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.testimonials-header {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.testimonials-header p {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+
+  color: #ffca47;
+}
+
+.swiper-containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.swiper-paragraph p {
+  width: 897px;
+  height: 102px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 159.6%;
+  text-align: center;
+}
+
+.swiper-contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.swiper-slide {
+  width: 100%;
+}
+.swiper-wrapper {
+  width: 100px;
+}
+
+.swiper-horizontal {
+  width: 100%;
+}
+
+.swiper {
+  width: 80%;
+  height: 200px;
+  overflow: unset;
+}
+
+.job {
+  text-align: center;
+}
+
+.swiper-pagination {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 150px;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #ffca47;
+  opacity: 1;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  opacity: 1;
+  background-color: rgb(227, 227, 227);
+}
+
+.contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.image img {
+  width: 58px;
+  height: 58px;
+}
+
+.swiper-button-next::after{
+  color: #ffca47;
+}
+.swiper-button-prev::after{
+  color: #ffca47;
+}
+
+@media (max-width: 800px) {
+  .swiper-button-prev::after {
+    display: none;
+  }
+  .swiper-button-next::after {
+    display: none;
+  }
+
+  .swiper-paragraph p {
+    width: 343px;
+    height: 174px;
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 159.6%;
+    /* or 29px */
+
+    text-align: center;
+  }
+
+  .swiper{
+    height: 300px;
+  }
+
+  .swiper-pagination{
+    top: 200px;
+  }
+
+  .contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}

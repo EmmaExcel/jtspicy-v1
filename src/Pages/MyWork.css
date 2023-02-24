@@ -1,0 +1,209 @@
+.work-container {
+  height: 130vh;
+}
+
+.work-header p {
+  text-align: center;
+  left: 659px;
+  top: 4612px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  /* identical to box height */
+
+  color: #ffca47;
+}
+
+.work-nav{
+  margin: 30px;
+}
+
+.work-nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.work-nav ul li:hover {
+  color: #ffca47;
+}
+
+.boxess{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.flexbox-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbox-item {
+  width: 200px;
+  margin: 10px;
+  border: 3px solid black;
+  background-color: gray;
+}
+
+.flexbox-item-1 {
+  background-image: url("./workimages/Rectangle\ 8.png");
+  background-position: center;
+  width: 278px;
+  height: 740px;
+}
+
+.flexbox-item-2 {
+  background-image: url("./workimages/Rectangle\ 9.png");
+  background-position: center;
+  width: 278px;
+  height: 242px;
+}
+
+.flexbox-item-3 {
+  width: 278px;
+  height: 482px;
+  background-image: url("./workimages/Rectangle\ 14.png");
+  background-position: center;
+}
+.flexbox-item-4 {
+  background-image: url("./workimages/Rectangle\ 10.png");
+  background-position: center;
+  width: 278px;
+  height: 404px;
+  align-self: flex-start;
+}
+.flexbox-item-5 {
+  width: 278px;
+  height: 176px;
+  background-image: url("./workimages/Rectangle\ 12.png");
+  background-position: center;
+}
+.flexbox-item-6 {
+  width: 278px;
+  height: 212px;
+  background-image: url("./workimages/Rectangle\ 13.png");
+  background-position: center;
+}
+.flexbox-item-7 {
+  width: 572px;
+  height: 320px;
+  position: relative;
+  left: -300px;
+  background-image: url("./workimages/Rectangle\ 11.png");
+  background-position: center;
+}
+
+@media (min-width: 801px) {
+  .select-container {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .flexbox-container {
+    flex-direction: column;
+  }
+
+  .flexbox-item-1 {
+    width: 339px;
+    height: 358px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .flexbox-item-2 {
+    width: 339px;
+    height: 242px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .flexbox-item-3 {
+    width: 343px;
+    height: 401px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .flexbox-item-4 {
+    width: 339px;
+    height: 256px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: center;
+  }
+
+  .flexbox-item-5 {
+    width: 342px;
+    height: 176px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .flexbox-item-6 {
+    width: 339px;
+    height: 212px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .flexbox-item-7 {
+    position: unset;
+    width: 339px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .flexbox-item {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .work-nav {
+    display: none;
+  }
+  .select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .select {
+    width: 241px;
+    height: 56px;
+    outline: none;
+    border: 2px solid white;
+    background: transparent;
+    
+  }
+
+  .select:hover{
+    
+  }
+
+  .all{
+    background-color: transparent;
+    color: black;
+  }
+
+  .all:hover, .all:focus{
+    background-color: black;
+    color: white;
+    outline: none;
+  }
+  .work-container{
+    height: 250vh;
+  }
+
+}
